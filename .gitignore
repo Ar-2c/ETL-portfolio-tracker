@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual environments
+venv/
+
+# Logs
+logs/*.log
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+
+# pytest cache
+.pytest_cache/
