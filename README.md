@@ -1,4 +1,4 @@
-# ETL-finance
+# ETL-yfinance
 
 Ett litet **proof-of-concept** för att:
 1. Hämta aktiekurser via [yfinance](https://pypi.org/project/yfinance/).
@@ -11,7 +11,7 @@ Ett litet **proof-of-concept** för att:
 
 ```powershell
 # Klona repot
-git clone <https://github.com/Ar-2c/ETL-yfinance.git>
+git clone https://github.com/Ar-2c/ETL-yfinance.git
 cd ETL-finance
 
 # Skapa virtuell miljö
@@ -29,7 +29,7 @@ pytest -v
 
 ## Schemaläggning (Windows)
 
-Man kan schemalägga körningen via **Task Scheduler**:
+Man kan schemalägga körningen via schemaläggaren:
 
 Öppna schemaläggaren → Åtgärder → Ny. Välj sedan scriptet och när det ska köras    
 
