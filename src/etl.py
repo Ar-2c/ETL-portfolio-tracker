@@ -21,7 +21,7 @@ if not log.handlers:
     log.addHandler(fh); log.addHandler(sh)
 
 # Extract + transform
-def extract(tickers=("AAPL","INVE-B.ST"), period="5d", interval="1d") -> pd.DataFrame: # Fetching for Apple and Investor AB.
+def extract(tickers=("AAPL","INVE-B.ST"), period="5d", interval="1d") -> pd.DataFrame: # Fetching info for Apple and Investor AB.
     log.info(f"Hämtar data: {tickers}, period={period}, interval={interval}")
     df = yf.download(tickers, period=period, interval=interval,
                      progress=False, auto_adjust=False)
@@ -65,9 +65,13 @@ def load(df: pd.DataFrame, db_path: Path | str = DB_PATH) -> int:
         return cur.rowcount
 
 def main():
-    df = extract()
-    tried = load(df)
-    log.info(f"Inserted {len(df)} rows (duplicates ignored). Tried inserts: {tried}")
+    try:
+        df = extract()
+        tried = load(df)
+        log.info(f"Inserted {len(df)} rows (duplicates ignored). Tried inserts: {tried}")
+    except Exception:
+        # loggar stacktrace till både fil och konsol
+        log.exception("Körningen misslyckades i ETL-flödet")
 
 if __name__ == "__main__":
     main()
