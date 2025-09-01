@@ -7,7 +7,7 @@ Ett litet **proof-of-concept** för att:
 
 ---
 
-## Kom igång
+# Kom igång
 
 ```powershell
 # Klona repot
@@ -27,14 +27,14 @@ python src/etl.py
 # Kör tester
 pytest -v
 
-## Schemaläggning (Windows)
+# Schemaläggning (Windows)
 
 Man kan schemalägga körningen via schemaläggaren:
 
 Öppna schemaläggaren → Åtgärder → Ny. Välj sedan scriptet och när det ska köras    
 
 
-## Projektstruktur
+# Projektstruktur
 
 ETL-finance/
 ├── data/          # SQLite-databas
