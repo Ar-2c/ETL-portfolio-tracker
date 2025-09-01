@@ -22,9 +22,14 @@ python -m venv venv
 pip install -r requirements.txt
 
 # Kör ETL-skriptet
+# Extract: hämtar aktiekurser (closing prices) via yfinance.
+# Transform: säkerställer att datan får rätt format (datum, ticker, closing-pris).
+# Load: sparar datan i en SQLite-databas (data/data.db) och loggar resultatet i logs/etl.log.
 python src/etl.py
 
-# Kör tester
+# Kör tester 
+# test_extract_shape: verifierar att funktionen extract() returnerar en DataFrame i rätt format (kolumnerna ts, ticker, close).
+# test_load_inserts_into_temp_db: verifierar att funktionen load() kan skriva in data i en SQLite-databas och att raden går att läsa tillbaka.
 pytest -v
 
 # Schemaläggning (Windows)
