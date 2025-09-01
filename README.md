@@ -46,7 +46,6 @@ ETL-finance/
 ├── logs/          # Loggfiler
 ├── src/           # ETL-skript
 ├── tests/         # Tester
-├── venv/          # Virtuell miljö (ignoreras av git)
 ├── requirements.txt
 ├── .gitignore
 └── README.md
