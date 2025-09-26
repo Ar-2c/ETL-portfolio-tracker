@@ -28,3 +28,8 @@ Thumbs.db
 
 # pytest cache
 .pytest_cache/
+
+# Logs & db-filer
+logs/
+data/*.db
+app/services/backfill_prices.py

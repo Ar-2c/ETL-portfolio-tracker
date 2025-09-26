@@ -59,29 +59,22 @@ etl-finance/
 │     ├─ db.py                    # Databaskoppling, schema
 │     ├─ trades.py                # Trades-funktioner
 │     ├─ portfolio.py             # Portföljberäkningar (GAV, PnL, cash)
-│     ├─ universe.py              # Laddar och söker i universet (CSV)
-│     ├─ auth.py                  # Enkel inloggning
-│     └─ backfill_prices.py       # (tillval) backfill av prisdata
+│     └─ universe.py              # Laddar och söker i universet (CSV)
 │
 ├─ src/
 │  └─ etl.py                      # ETL-jobb för aktiekurser
 │
 ├─ data/
-│  ├─ omx_securities.csv          # Univers av aktier (bör laddas upp i repo)
-│  └─ data.db                     # SQLite DB (IGNORERAS i git)
-│
-├─ logs/                          # Loggar (IGNORERAS i git)
-│  └─ etl.log
+│  ├─ omx_securities.csv          # Univers av aktier (behövs i repo)
+│  └─ data.db                     # SQLite DB (IGNORERAS av .gitignore)
 │
 ├─ tests/
 │  └─ test_etl.py                 # Pytest för extract() och load()
 │
-├─ .env.example                   # Demo credentials, START_CASH
 ├─ .gitignore
 ├─ requirements.txt
 ├─ pytest.ini
 └─ README.md
-
 ```
 
 # Data
