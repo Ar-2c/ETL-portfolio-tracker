@@ -17,7 +17,7 @@ ETL-finance är en minimal portfölj-tracker som demonstrerar:
 
 ```powershell
 # Klona repo och skapa miljö
-git clone https://github.com/<ditt-användarnamn>/ETL-finance.git
+git clone https://github.com/Ar-2c/ETL-portfolio-tracker
 cd ETL-finance
 
 python -m venv venv
