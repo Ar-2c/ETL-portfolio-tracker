@@ -1,30 +1,36 @@
-# ETL-yfinance
+# ETL-finance
 
-Ett litet **proof-of-concept** för att:
-1. Hämta aktiekurser via [yfinance](https://pypi.org/project/yfinance/).
-2. Transformera datan till rätt format.
-3. Spara i en **SQLite-databas**.
+ETL-finance är en minimal portfölj-tracker som demonstrerar:
+1. ETL-flöde för aktiekurser via [yfinance](https://pypi.org/project/yfinance/).
+2. Databas i SQLite för att lagra prisdata och trades.
+3. Streamlit-app för att visualisera portföljutveckling, registrera affärer och jämföra mot OMXSPI.
 
----
+# Funktioner
+
+- ETL-jobb som hämtar aktiekurser och lagrar i SQLite (src/etl.py).
+- Trades – registrera köp/sälj med pris, datum och eventuell courtage.
+- Portföljöversikt – se innehav, GAV, och total portföljutveckling.
+- Graf – jämför din portföljutveckling mot OMXSPI över olika perioder.
+- Demo-login.
 
 # Kom igång
 
 ```powershell
-# Klona repot
-git clone https://github.com/Ar-2c/ETL-yfinance.git
+# Klona repo och skapa miljö
+git clone https://github.com/<ditt-användarnamn>/ETL-finance.git
 cd ETL-finance
 
-# Skapa virtuell miljö
 python -m venv venv
-.\venv\Scripts\Activate
+.\venv\Scripts\activate
 
 # Installera beroenden
 pip install -r requirements.txt
 
+# för att köra lokalt:
+python -m streamlit run app/streamlit_app.py
+
 # Kör ETL-skriptet
-# Extract: hämtar aktiekurser (closing prices) via yfinance.
-# Transform: säkerställer att datan får rätt format (datum, ticker, closing-pris).
-# Load: sparar datan i en SQLite-databas (data/data.db) och loggar resultatet i logs/etl.log.
+# Detta fyller tabellen prices i data/data.db med aktiekurser. Körs normalt regelbundet (t.ex. via schemaläggning).
 python src/etl.py
 
 # Kör tester 
@@ -41,11 +47,52 @@ Man kan schemalägga körningen via schemaläggaren:
 
 # Projektstruktur
 
-ETL-finance/
-├── data/          # SQLite-databas
-├── logs/          # Loggfiler
-├── src/           # ETL-skript
-├── tests/         # Tester
-├── requirements.txt
-├── .gitignore
-└── README.md
+etl-finance/
+├─ app/                           # Streamlit-applikationen
+│  ├─ config.py                   # Centrala inställningar (DB_PATH, START_CASH, DEMO_USER/PASS)
+│  ├─ streamlit_app.py            # Entry-point för Streamlit
+│  ├─ pages/                      # Sidor i Streamlit
+│  │  ├─ 1_Dashboard.py           # Översikt, grafer, KPI:er
+│  │  ├─ 2_Trades.py              # Registrera och lista trades
+│  │  └─ 3_Models.py              # Placeholder för framtida modeller
+│  └─ services/                   # Tjänstelager
+│     ├─ db.py                    # Databaskoppling, schema
+│     ├─ trades.py                # Trades-funktioner
+│     ├─ portfolio.py             # Portföljberäkningar (GAV, PnL, cash)
+│     ├─ universe.py              # Laddar och söker i universet (CSV)
+│     ├─ auth.py                  # Enkel inloggning
+│     └─ backfill_prices.py       # (tillval) backfill av prisdata
+│
+├─ src/
+│  └─ etl.py                      # ETL-jobb för aktiekurser
+│
+├─ data/
+│  ├─ omx_securities.csv          # Univers av aktier (bör laddas upp i repo)
+│  └─ data.db                     # SQLite DB (IGNORERAS i git)
+│
+├─ logs/                          # Loggar (IGNORERAS i git)
+│  └─ etl.log
+│
+├─ tests/
+│  └─ test_etl.py                 # Pytest för extract() och load()
+│
+├─ .env.example                   # Demo credentials, START_CASH
+├─ .gitignore
+├─ requirements.txt
+├─ pytest.ini
+└─ README.md
+
+```
+
+# Data
+
+- Databas: SQLite, sparas som data/data.db.
+- Universe: CSV-fil (data/omx_securities.csv) med name_display, yf_symbol, segment.
+- Loggar: logs/etl.log.
+
+# Begränsningar & vidareutveckling
+
+- Ingen riktig användarhantering (bara demo-login).
+- ETL körs manuellt (schemaläggning får sättas upp separat). I en vidareutveckling laddas DB upp på moln. 
+- Endast grundläggande portföljlogik (GAV, TWR).
+- Ingen hantering av utdelningar.

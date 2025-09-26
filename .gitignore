@@ -1,17 +1,25 @@
-# Python
+# Python cache / bytecode
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.db
 
 # Virtual environments
 venv/
+.env
+*.env
+
+# Databaser
+data/*.db
 
 # Logs
-logs/*.log
+logs/
+*.log
 
-# Jupyter
+# Streamlit
+.streamlit/
+
+# Jupyter (ifall du experimenterar)
 *.ipynb_checkpoints/
 
 # OS / Editor files

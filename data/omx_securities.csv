@@ -1,0 +1,408 @@
+﻿name_display;yf_symbol;segment
+AAK;AAK.ST;Large
+ABB;ABB.ST;Large
+AddLife B;ADDL-B.ST;Large
+Addnode Group B;ANOD-B.ST;Large
+Addtech B;ADT-B.ST;Large
+AFRY;AFRY.ST;Large
+Alfa Laval;ALFA.ST;Large
+Alleima;ALLEI.ST;Large
+Alvotech SDB;ALVO-SDB.ST;Large
+Arion Bank SDB;ARION-SDB.ST;Large
+Asker Healthcare;ASKER.ST;Large
+Asmodee;ASMDEE-B.ST;Large
+Assa Abloy B;ASSA-B.ST;Large
+Astra Zeneca;AZN.ST;Large
+Atlas Copco A;ATCO-A.ST;Large
+Atlas Copco B;ATCO-B.ST;Large
+Atrium Ljungberg B;ATRLJ-B.ST;Large
+Autoliv SDB;ALIV-SDB.ST;Large
+Avanza Bank Holding;AZA.ST;Large
+Axfood;AXFO.ST;Large
+Balder B;BALD-B.ST;Large
+Beijer Ref B;BEIJ-B.ST;Large
+Betsson B;BETS-B.ST;Large
+Better Collective;BETCO.ST;Large
+Bilia A;BILI-A.ST;Large
+Billerud;BILL.ST;Large
+BioArctic B;BIOA-B.ST;Large
+Boliden;BOL.ST;Large
+Bonesupport;BONEX.ST;Large
+Bravida Holding;BRAV.ST;Large
+Bure Equity;BURE.ST;Large
+Camurus;CAMX.ST;Large
+Castellum;CAST.ST;Large
+Catena;CATE.ST;Large
+Corem Property Group A;CORE-A.ST;Large
+Corem Property Group B;CORE-B.ST;Large
+Corem Property Group D;CORE-D.ST;Large
+Corem Property Group Pref;CORE-PREF.ST;Large
+Dometic Group;DOM.ST;Large
+Electrolux A;ELUX-A.ST;Large
+Electrolux B;ELUX-B.ST;Large
+Electrolux Professional B;EPRO-B.ST;Large
+Elekta B;EKTA-B.ST;Large
+Embracer Group B;EMBRAC-B.ST;Large
+engcon B;ENGCON-B.ST;Large
+Epiroc A;EPI-A.ST;Large
+Epiroc B;EPI-B.ST;Large
+EQT;EQT.ST;Large
+Ericsson A;ERIC-A.ST;Large
+Ericsson B;ERIC-B.ST;Large
+Essity A;ESSITY-A.ST;Large
+Essity B;ESSITY-B.ST;Large
+Evolution;EVO.ST;Large
+Fabege;FABG.ST;Large
+Fastpartner A;FASTP-A.ST;Large
+Fastpartner D;FASTP-D.ST;Large
+Fenix Outdoor B;FOI-B.ST;Large
+Getinge B;GETI-B.ST;Large
+Gränges;GRNG.ST;Large
+H&M B;HM-B.ST;Large
+Hacksaw;HACK.ST;Large
+Handelsbanken A;SHB-A.ST;Large
+Handelsbanken B;SHB-B.ST;Large
+Hemnet Group;HMNT.ST;Large
+Hexagon B;HEXA-B.ST;Large
+Hexpol B;HPOL-B.ST;Large
+HMS Networks;HMS.ST;Large
+Holmen A;HOLM-A.ST;Large
+Holmen B;HOLM-B.ST;Large
+Hufvudstaden A;HUFV-A.ST;Large
+Husqvarna A;HUSQ-A.ST;Large
+Husqvarna B;HUSQ-B.ST;Large
+Industrivärden A;INDU-A.ST;Large
+Industrivärden C;INDU-C.ST;Large
+Indutrade;INDT.ST;Large
+International Petroleum Corp.;IPCO.ST;Large
+Investor A;INVE-A.ST;Large
+Investor B;INVE-B.ST;Large
+JM;JM.ST;Large
+Kinnevik A;KINV-A.ST;Large
+Kinnevik B;KINV-B.ST;Large
+Lagercrantz Group B;LAGR-B.ST;Large
+Latour B;LATO-B.ST;Large
+Lifco B;LIFCO-B.ST;Large
+Lindab International;LIAB.ST;Large
+Loomis;LOOMIS.ST;Large
+Lundberg B;LUND-B.ST;Large
+Lundin Gold;LUG.ST;Large
+Lundin Mining Corporation;LUMI.ST;Large
+Medicover B;MCOV-B.ST;Large
+Mips;MIPS.ST;Large
+Munters Group AB;MTRS.ST;Large
+Mycronic;MYCR.ST;Large
+NCAB Group;NCAB.ST;Large
+NCC A;NCC-A.ST;Large
+NCC B;NCC-B.ST;Large
+New Wave B;NWG-B.ST;Large
+Nibe Industrier B;NIBE-B.ST;Large
+Nolato B;NOLA-B.ST;Large
+Nordea Bank;NDA-SE.ST;Large
+Nordnet;NN-B.ST;Large
+NP3 Fastigheter;NP3.ST;Large
+NP3 Fastigheter Pref;NP3-PREF.ST;Large
+Nyfosa;NYF.ST;Large
+OEM International B;OEM-B.ST;Large
+Pandox B;PNDX-B.ST;Large
+Peab B;PEAB-B.ST;Large
+Röko B;ROKO-B.ST;Large
+SAAB B;SAAB-B.ST;Large
+Sagax A;SAGA-A.ST;Large
+Sagax B;SAGA-B.ST;Large
+Sagax D;SAGA-D.ST;Large
+Sampo A SDB;SAMPO-SDB.ST;Large
+Sandvik;SAND.ST;Large
+SCA A;SCA-A.ST;Large
+SCA B;SCA-B.ST;Large
+SEB A;SEB-A.ST;Large
+SEB C;SEB-C.ST;Large
+Sectra B;SECT-B.ST;Large
+Securitas B;SECU-B.ST;Large
+Sinch;SINCH.ST;Large
+Skanska B;SKA-B.ST;Large
+SKF A;SKF-A.ST;Large
+SKF B;SKF-B.ST;Large
+SSAB A;SSAB-A.ST;Large
+SSAB B;SSAB-B.ST;Large
+Stora Enso A;STE-A.ST;Large
+Stora Enso R;STE-R.ST;Large
+Storskogen B;STOR-B.ST;Large
+Sweco A;SWECA.ST;Large
+Sweco B;SWECO-B.ST;Large
+Swedbank A;SWED-A.ST;Large
+Swedish Orphan Biovitrum;SOBI.ST;Large
+Systemair;SYSR.ST;Large
+Tele2 A;TEL2-A.ST;Large
+Tele2 B;TEL2-B.ST;Large
+Telia Company;TELIA.ST;Large
+Thule Group;THULE.ST;Large
+Tieto Evry;TIETOS.ST;Large
+Traton SE;8TRA.ST;Large
+Trelleborg B;TREL-B.ST;Large
+Troax Group;TROAX.ST;Large
+Truecaller;TRUE-B.ST;Large
+Vimian Group;VIMIAN.ST;Large
+Vitec Software Group B;VIT-B.ST;Large
+Vitrolife;VITR.ST;Large
+Volvo A;VOLV-A.ST;Large
+Volvo B;VOLV-B.ST;Large
+Volvo Car B;VOLCAR-B.ST;Large
+Wallenstam B;WALL-B.ST;Large
+Wihlborgs Fastigheter;WIHL.ST;Large
+Yubico;YUBICO.ST;Large
+AcadeMedia;ACAD.ST;Mid
+Alimak Group;ALIG.ST;Mid
+Alligo B;ALLIGO-B.ST;Mid
+Ambea;AMBEA.ST;Mid
+Apotea;APOTEA.ST;Mid
+AQ Group;AQ.ST;Mid
+Arctic Paper;ARP.ST;Mid
+Arise;ARISE.ST;Mid
+Arjo;ARJO-B.ST;Mid
+Attendo;ATT.ST;Mid
+Bactiguard Holding B;BACTI-B.ST;Mid
+Beijer Alma B;BEIA-B.ST;Mid
+Bergman & Beving B;B&BTO-B.ST;Mid
+Besqab;BESQ.ST;Mid
+Besqab Pref B;BESQ-PREF.ST;Mid
+BHG Group;BHG.ST;Mid
+BICO Group;BICO.ST;Mid
+BioGaia B;BIOG-B.ST;Mid
+BioInvent International;BINV.ST;Mid
+Bonava A;BONAV-A.ST;Mid
+Bonava B;BONAV-B.ST;Mid
+Boozt;BOOZT.ST;Mid
+Brinova Fastigheter B;BRIN-B.ST;Mid
+BTS Group B;BTS-B.ST;Mid
+Bufab;BUFAB.ST;Mid
+Byggmax Group;BMAX.ST;Mid
+Byggmästare Anders J Ahlström Holding B;AHLST-B.ST;Mid
+Catella A;CAT-A.ST;Mid
+Catella B;CAT-B.ST;Mid
+Cavotec Group;CCC.ST;Mid
+CellaVision;CEVI.ST;Mid
+Cibus Nordic Real Estate;CIBUS.ST;Mid
+Cinclus Pharma;CINCLUS.ST;Mid
+Cint Group;CINT.ST;Mid
+Clas Ohlson B;CLAS-B.ST;Mid
+Cloetta;CLA-B.ST;Mid
+CoinShares International Limited;CS.ST;Mid
+Coor Service Management Holding;COOR.ST;Mid
+Creades A;CRED-A.ST;Mid
+CTT Systems;CTT.ST;Mid
+Diös Fastigheter;DIOS.ST;Mid
+Duni;DUNI.ST;Mid
+Dustin Group;DUST.ST;Mid
+Dynavox Group;DYNAVX-B.ST;Mid
+Eastnine;EAST.ST;Mid
+Elanders B;ELAN-B.ST;Mid
+Emilshus B;EMIL-B.ST;Mid
+Emilshus Pref;EMIL-PREF.ST;Mid
+Enea;ENEA.ST;Mid
+Enity;ENITY.ST;Mid
+Eolus B;EOLU-B.ST;Mid
+Ependion;EPEN.ST;Mid
+Ework Group;EWRK.ST;Mid
+Fagerhult Group;FAG.ST;Mid
+Fasadgruppen;FGROUP.ST;Mid
+Flerie;FLERIE.ST;Mid
+FM Mattsson B;FMM-B.ST;Mid
+Genova Property Group;GNOVA.ST;Mid
+Gentoo Media;GENTOO.ST;Mid
+Green Landscaping Group;GREEN.ST;Mid
+Hansa Biopharma;HNSA.ST;Mid
+HANZA;HANZA.ST;Mid
+Heba B;HEBA-B.ST;Mid
+Hexatronic Group;HTRO.ST;Mid
+Hoist Finance;HOIST.ST;Mid
+Humana;HUM.ST;Mid
+Humble Group;HUMBLE.ST;Mid
+I.A.R Systems Group B;IAR-B.ST;Mid
+Instalco;INSTAL.ST;Mid
+Intea Fastigheter B;INTEA-B.ST;Mid
+Intea Fastigheter D;INTEA-D.ST;Mid
+Intrum;INTRUM.ST;Mid
+INVISIO;IVSO.ST;Mid
+Inwido;INWI.ST;Mid
+ITAB Shop Concept;ITAB.ST;Mid
+John Mattson;JOMA.ST;Mid
+K-Fast Holding B;KFAST-B.ST;Mid
+KABE Group B;KABE-B.ST;Mid
+Karnov Group;KAR.ST;Mid
+KlaraBo;KLARA-B.ST;Mid
+Knowit;KNOW.ST;Mid
+Lime Technologies;LIME.ST;Mid
+Linc;LINC.ST;Mid
+Logistea A;LOGI-A.ST;Mid
+Logistea B;LOGI-B.ST;Mid
+MedCap;MCAP.ST;Mid
+MEKO;MEKO.ST;Mid
+Meren Energy;MER.ST;Mid
+MilDef Group;MILDEF.ST;Mid
+Momentum Group B;MMGR-B.ST;Mid
+MTG A;MTGA.ST;Mid
+MTG B;MTGB.ST;Mid
+Nederman Holding;NMAN.ST;Mid
+Neobo Fastigheter;NEOBO.ST;Mid
+Net Insight B;NETI-B.ST;Mid
+Nivika;NIVIKA-B.ST;Mid
+Nobia;NOBI.ST;Mid
+Nordic Paper Holding AB;NPAPER.ST;Mid
+Norion Bank;NORION.ST;Mid
+Note;NOTE.ST;Mid
+Orrön Energy;ORRON.ST;Mid
+Platzer Fastigheter Holding B;PLAZ-B.ST;Mid
+PowerCell Sweden;PCELL.ST;Mid
+Pricer B;PRIC-B.ST;Mid
+Prisma Properties;PRISMA.ST;Mid
+Proact IT Group;PACT.ST;Mid
+Profoto Holding;PROF.ST;Mid
+Ratos A;RATO-A.ST;Mid
+Ratos B;RATO-B.ST;Mid
+RaySearch Laboratories B;RAY-B.ST;Mid
+Rejlers B;REJL-B.ST;Mid
+Resurs Holding;RESURS.ST;Mid
+Revolutionrace;RVRC.ST;Mid
+Rottneros;ROTT.ST;Mid
+Rusta;RUSTA.ST;Mid
+SBB Norden B;SBB-B.ST;Mid
+SBB Norden D;SBB-D.ST;Mid
+Scandi Standard;SCST.ST;Mid
+Scandic Hotels Group;SHOT.ST;Mid
+Sdiptech B;SDIP-B.ST;Mid
+Sdiptech Pref;SDIP-PREF.ST;Mid
+Sedana Medical;SEDA.ST;Mid
+SkiStar B;SKIS-B.ST;Mid
+Stendörren Fastigheter B;STEF-B.ST;Mid
+Stenhus Fastigheter i Norden;SFAST.ST;Mid
+Stillfront Group;SF.ST;Mid
+Sveafastigheter;SVEAF.ST;Mid
+Svolder A;SVOL-A.ST;Mid
+Svolder B;SVOL-B.ST;Mid
+Swedish Logistic Property B;SLP-B.ST;Mid
+Synsam;SYNSAM.ST;Mid
+TF Bank;TFBANK.ST;Mid
+Traction B;TRAC-B.ST;Mid
+Trianon B;TRIAN-B.ST;Mid
+VBG Group B;VBG-B.ST;Mid
+VEF;VEF-SDB.ST;Mid
+Vestum;VESTUM.ST;Mid
+Viaplay Group A;VIAP-A.ST;Mid
+Viaplay Group B;VIAP-B.ST;Mid
+Viscaria;VISC.ST;Mid
+VNV Global;VNV.ST;Mid
+Volati;VOLAT-B.ST;Mid
+Volati Pref;VOLAT-PREF.ST;Mid
+XANO Industri B;XANO-B.ST;Mid
+Xvivo Perfusion;XVIVO.ST;Mid
+Öresund;ORES.ST;Mid
+Acrinova A;ACRI-A.ST;Small
+Acrinova B;ACRI-B.ST;Small
+Actic Group;ACTIC.ST;Small
+Active Biotech;ACTI.ST;Small
+Alligator Bioscience;ATORX.ST;Small
+Annehem Fastigheter B;ANNE-B.ST;Small
+Anoto Group;ANOT.ST;Small
+Arla Plast;ARPLA.ST;Small
+Ascelia Pharma;ACE.ST;Small
+B3 Consulting Group;B3CON.ST;Small
+Balco Group;BALCO.ST;Small
+BE Group;BEGR.ST;Small
+Berner Industrier B;BERNER-B.ST;Small
+Björn Borg;BORG.ST;Small
+Bong;BONG.ST;Small
+Boule Diagnostics;BOUL.ST;Small
+Bulten;BULTEN.ST;Small
+C-RAD B;CRAD-B.ST;Small
+Cantargia;CANTA.ST;Small
+Carasent;CARE.ST;Small
+Catena Media;CTM.ST;Small
+Concejo B;CNCJO-B.ST;Small
+CTEK;CTEK.ST;Small
+Dedicare B;DEDI-B.ST;Small
+Doro;DORO.ST;Small
+Duroc B;DURC-B.ST;Small
+Egetis Therapeutics;EGETIS.ST;Small
+Elon;ELON.ST;Small
+Eltel;ELTEL.ST;Small
+Enad Global 7;EG7.ST;Small
+Eniro Group;ENIRO.ST;Small
+Episurf Medical B;EPIS-B.ST;Small
+EQL Pharma;EQL.ST;Small
+Fastator;FASTAT.ST;Small
+Ferronordic;FNM.ST;Small
+Fingerprint Cards B;FING-B.ST;Small
+Formpipe Software;FPIP.ST;Small
+G5 Entertainment;G5EN.ST;Small
+Garo;GARO.ST;Small
+HAKI Safety A;HAKI-A.ST;Small
+HAKI Safety B;HAKI-B.ST;Small
+Havsfrun Investment B;HAV-B.ST;Small
+Image Systems;IS.ST;Small
+Immunovia;IMMNOV.ST;Small
+Infant Bacterial Therapeutics B;IBT-B.ST;Small
+Infrea;INFREA.ST;Small
+Inission B;INISS-B.ST;Small
+IRLAB Therapeutics A;IRLAB-A.ST;Small
+Isofol Medical;ISOFOL.ST;Small
+K2A Knaust & Andersson Fastigheter B;K2A-B.ST;Small
+K2A Knaust & Andersson Fastigheter Pref;K2A-PREF.ST;Small
+Karnell;KARNEL-B.ST;Small
+Karolinska Development B;KDEV-B.ST;Small
+Lammhults Design Group B;LAMM-B.ST;Small
+Maha Capital;MAHA-A.ST;Small
+Malmbergs Elektriska B;MALM-B.ST;Small
+Mangold;MANG.ST;Small
+Medivir;MVIR-B.ST;Small
+Mendus;MEND.ST;Small
+Micro Systemation B;MSAB-B.ST;Small
+Midsona A;MSON-A.ST;Small
+Midsona B;MSON-B.ST;Small
+Moberg Pharma;MOB.ST;Small
+Moment Group;MOMENT.ST;Small
+mySafety Group B;SAFETY-B.ST;Small
+Nanologica;NANOLOG.ST;Small
+NAXS;NAXS.ST;Small
+Nelly Group;NELLY.ST;Small
+Netel;NETEL.ST;Small
+NGS Group;NGS.ST;Small
+Nilörngruppen B;NILS-B.ST;Small
+Nordisk Bergteknik;NBT-B.ST;Small
+Novotek B;NTEK-B.ST;Small
+Oncopeptides;ONCO.ST;Small
+Orexo;ORX.ST;Small
+Ovzon;OVZON.ST;Small
+Pierce Group;PIERCE.ST;Small
+PION Group B;PION-B.ST;Small
+Precise Biometrics;PREC.ST;Small
+Prevas B;PREV-B.ST;Small
+ProfilGruppen B;PROF-B.ST;Small
+Q-Linea;QLINEA.ST;Small
+Qliro;QLRO.ST;Small
+Railcare Group;RAIL.ST;Small
+Saniona;SANION.ST;Small
+Seafire;SEAFIRE.ST;Small
+Sensys Gatso Group;SENS.ST;Small
+Senzime;SENZI.ST;Small
+Sintercast;SINT.ST;Small
+Sivers Semiconductors;SIVE.ST;Small
+Sleep Cycle;SLEEP.ST;Small
+Softronic B;SOF-B.ST;Small
+Solid Försäkring;SOLID.ST;Small
+Starbreeze A;STAR-A.ST;Small
+Starbreeze B;STAR-B.ST;Small
+Stockwik Förvaltning;STWK.ST;Small
+Studsvik;SVIK.ST;Small
+Svedbergs Group B;SVED-B.ST;Small
+SynAct Pharma;SYNACT.ST;Small
+Tobii;TOBII.ST;Small
+TradeDoubler;TRAD.ST;Small
+Transtema Group;TRANS.ST;Small
+Vicore Pharma Holding;VICO.ST;Small
+Vivesto;VIVE.ST;Small
+Wall to Wall Group A;WTW-A.ST;Small
+Wise Group;WISE.ST;Small
+Wästbygg;WAST.ST;Small
+Xbrane Biopharma;XBRANE.ST;Small
+Xspray Pharma;XSPRAY.ST;Small
